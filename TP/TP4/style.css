@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    padding: 0px;
+}
+label{
+    background-color: black;
+    color: cornsilk;
+    display: inline-block;
+    height: 22px;
+    width: 160px;
+}
+li{
+    width: 60px;
+    height: 22px;
+    border: 1px solid transparent;
+}
+.liChild{
+    display: inline-block;
+
+}
+.liChild1{
+    display: inline-block;
+
+}
+
+
+.ulChild{
+    width: 160px;
+    display: block;
+    
+}

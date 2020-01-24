@@ -1,0 +1,64 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    margin: auto;
+}
+#h1Header{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#h2Header{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+header a{
+    color: whitesmoke;
+    
+}
+header a:hover{
+    color: rgb(216, 214, 214);
+}
+div{
+    display: block;
+    border: 1px solid transparent;
+    width: 420px;
+}
+div h2{
+    text-align: center;
+    font-weight: bold;
+}
+div img{
+    width: 420px;
+    height: 542px;
+}
+#div2{
+    font-size: 20px;
+    display: block;
+    border: 1px solid transparent;
+    width: 1000px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.div2p::first-letter{
+    font-size: 20px;
+}
+.Haut{
+    color: whitesmoke;
+}
+#1{
+    background-color: coral;
+}
+#&chap0Par{
+    background-color: coral;
+}
+#-chap0Par3{
+    background-color: coral;
+}
+#chap0Par4{
+    background-color: coral;
+}

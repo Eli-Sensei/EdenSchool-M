@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+.left{float: left;}
+
+.fakeBody{
+    width: 960px;
+    height: 1275px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 black;
+    margin: 0  auto;
+}
+header{
+    width: 100%;
+    float: left;
+}
+.recGray{
+    background-color: #D9D9D9;
+    height: 200px;
+    width: 30%;
+    margin-left: 5%;
+}
+.H1{
+    width: 65%;
+    height: 200px;
+}
+.h-Title{
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+}
+.BandoRed{
+    position: relative;
+    background-color: #C0504D;
+    width: 100%;
+    height: 200px;
+}
+.h-IMGprofil{
+    position: absolute;
+    left: 90px;
+    top: -100px;
+    max-width: 200px;
+}
+.h-IMGtext{
+    position: absolute;
+    left: 100px;
+    top: 115px;
+    color: white;
+}
+.h-TitleDesIMG{
+    color: white;
+    float: right;
+    width: 100%;
+    margin-right: 200px;
+    text-align: right;
+}
+.h-DesIMG{
+    color: white;
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+.fakeBodyContent{
+    width: 100%;
+    height: 875px;
+}
+.leftContent{
+    background-color: #D9D9D9;
+    width: 30%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.LC-h2{
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+}
+.LC-h2-Parents{
+
+}
+.LC-h2-RedLine{
+    background-color: #C0504D;
+    height: 8px;
+    width: 165px;
+    float: left;
+    margin-top: 13px;
+}
+#Rtop{
+    width: 170px;
+}
+#Rbottom{
+    width: 115px;
+}
+
+.LC-p{
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    margin: 3px 0;
+    margin-right: 20px;
+}
+.LC-p-Parents{
+
+}
+
+.middleContent{
+    background-color: rgb(233, 233, 233);
+    width: 10%;
+    height: 100%;
+}
+
+.MC-h2{
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+    width: 200px;
+}
+.MC-p{
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+div.middleContent p:nth-of-type(2n + 2){
+    margin-bottom: 80px;
+}
+
+
+
+
+.rightContent{
+    width: 55%;
+    height: 100%;
+    padding-top: 70px;
+}
+
+
+.RC-h3Red{
+    color: #C0504D;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.RC-h3{
+    color: black;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+.RC-p{
+    color: black;
+    margin: 5px 10px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+div.rightContent p:nth-of-type(0n + 4){
+    margin-bottom: 78px;
+}
+
+
+/*  */
+
+/*min == superieure
+max == inferieure*/
+
+@media (min-width: 780px) and (max-width: 1000px){
+    .fakeBody{
+        
+        width: 750px;
+    }
+    .middleContent{
+        background-color: #fff;
+    }
+    .h-IMGprofil{
+        position: absolute;
+        left: 75px;
+        top: -100px;
+        max-width: 150px;
+    }
+    .h-IMGtext{
+        position: absolute;
+        left: 60px;
+        top: 40px;
+        color: white;
+    }
+    .h-TitleDesIMG{
+        color: white;
+        float: right;
+        width: 100%;
+        margin-right: 135px;
+        text-align: right;
+    }
+    .h-DesIMG{
+        color: white;
+        float: right;
+        width: 400px;
+        margin-right: 50px;
+        text-align: center;
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    .LC-h2-RedLine{
+        background-color: #C0504D;
+        height: 8px;
+        width: 107px;
+        float: left;
+        margin-top: 13px;
+    }
+    #Rtop{
+        width: 113px;
+    }
+    #Rbottom{
+        width: 60px;
+    }
+}
+
+
+@media (max-width: 779px){
+    .fakeBody{
+        width: 450px;
+        height: 1850px;
+    }
+    .recGray{
+        display: none;
+    }
+    .H1{
+        width: 100%;
+        height: 200px;
+    }
+    .h-Title{
+        color: black;
+        text-align: center;
+        line-height: 200px;
+        margin: auto;
+    }
+    .BandoRed{
+        position: relative;
+        background-color: #C0504D;
+        width: 100%;
+        height: 400px;
+    }
+    .h-IMGprofil{
+        position: absolute;
+        left: 120px;
+        top: -30px;
+        max-width: 200px;
+    }
+    .h-IMGtext{
+        position: absolute;
+        left: 130px;
+        top: 150px;
+        color: white;
+    }
+    .h-TitleDesIMG{
+        color: white;
+        float: right;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 220px;
+        margin-bottom: 5px;
+        font-weight: normal;
+    }
+    .h-DesIMG{
+        color: white;
+        float: right;
+        width: 98%;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .leftContent{
+        display: none;
+    }
+
+
+
+    .middleContent{
+        background-color: #fff;
+    }
+    .MC-h2{
+        font-weight: bold;
+        color: black;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .MC-p{
+        font-weight: bold;
+        color: black;
+        margin: 0 auto;
+        text-align: center;
+    }
+    div.middleContent p:nth-of-type(2n + 2){
+        margin-bottom: 147px;
+    }
+}
+
+
+
+
+
+

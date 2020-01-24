@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+h1{
+    background-color: green;
+    color: white;
+}
+p:first-child{
+    color: blue;
+}
+p:nth-child(even), p:nth-child(0n + 9){
+    color: red;
+}
+p:last-child{
+    color: greenyellow;
+}
+p:nth-child(4n + 3){
+    color: orange;
+}
+.lime{
+    color: green;
+}
+li{
+    color: dodgerblue;
+}
+li:nth-child(0n + 2){
+    color: white;
+    background-color: darkred;
+}
+#liste{
+    background-color: lightgray;
+}

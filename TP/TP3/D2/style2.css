@@ -1,0 +1,22 @@
+body{
+    background-color: darkgray;
+    font-family: cursive;
+}
+#tableau{
+    background-color: rgb(208, 137, 226);
+    border-collapse: collapse;
+    border: 3px solid darkviolet;
+    margin: 100px 0px 0px 750px;
+}
+td{
+    background-color: darkgray;
+    border: 1px dotted darkviolet;
+    padding: 10px;
+    text-align: center;    
+    
+}
+th{
+    border: 1px dotted darkviolet;
+    padding: 10px;
+
+}
