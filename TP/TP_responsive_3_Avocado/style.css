@@ -20,6 +20,21 @@ body{
     border: gray 5px solid;
     float: left;
 }
+.bigCubeTitle{
+    background-image: url(./assets/building2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.bigCubeTitle h1{
+    font-weight: bold;
+    color: white;   
+}
+.bigCubeIMG{
+    background-image: url(./assets/building1.jpg);
+    background-size: cover;
+}
 .demiCube{
     height: 50%;
     width: 100%;
@@ -34,6 +49,7 @@ body{
     background-color: #000;
     float: left;
     padding: 20px;
+    border: 5px solid gray;
 }
 .littleCube°°{
     border: #F2EAE1 solid 5px;
@@ -46,4 +62,27 @@ body{
 }
 .littleCube°° p{
     margin: auto;
+}
+.littleCubeSun{
+    background-color: #F2EAE1;
+}
+.littleCubeSun h2{
+    color: #2d2f32;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.littleCubeSun p{
+    color: #2d2f32;
+    text-align: center;
+    margin: auto;
+}
+.littleCubeBurger{
+    background-image: url(./assets/food1.jpg);
+    background-size: cover;
+}
+.littleCubeMap{
+    background-image: url(./assets/map.png);
+    background-size: cover;
 }
