@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    
+}
+.fakeBody{
+    width: 850px;
+    border: 2px black solid;
+    height: calc(425px * 3 + 4px);
+    margin: 0 auto;
+}
+.bigCube{
+    width: 50%;
+    height: 425px;
+    min-width: 50%;
+    border: gray 5px solid;
+    float: left;
+}
+.demiCube{
+    height: 50%;
+    width: 100%;
+    background-color: #5f9300;
+    float: left;
+}
+
+
+.littleCube{
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+    float: left;
+    padding: 20px;
+}
+.littleCube°°{
+    border: #F2EAE1 solid 5px;
+    background-color: transparent;
+}
+.littleCube°° img{
+
+    margin-top: 20px;
+    max-width: 20px;
+}
+.littleCube°° p{
+    margin: auto;
+}
