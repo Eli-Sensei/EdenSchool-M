@@ -2,22 +2,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gray;
+    background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
     
 }
 .fakeBody{
     width: 850px;
-    border: 2px black solid;
-    height: calc(425px * 3 + 4px);
+    height: calc(425px * 4 - 220px);
     margin: 0 auto;
 }
 .bigCube{
     width: 50%;
     height: 425px;
     min-width: 50%;
-    border: gray 5px solid;
+    border: white 5px solid;
     float: left;
 }
 .bigCubeTitle{
@@ -39,18 +38,40 @@ body{
     height: 50%;
     width: 100%;
     background-color: #5f9300;
+    border: 0px solid white;
+    border-bottom: 5px white solid;
     float: left;
 }
-
-
+.demiCube h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin-top: 55px;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+.demiCube h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: auto;
+    font-size: 40px;
+}
+.demiCube2{
+    width: 418px;
+    height: 200px;
+    border: 5px solid white;
+    border-left-width: 9px;
+    float: left;
+}
 .littleCube{
     width: 50%;
     height: 50%;
-    background-color: #000;
     float: left;
     padding: 20px;
-    border: 5px solid gray;
+    border: 5px solid white;
 }
+
 .littleCube°°{
     border: #F2EAE1 solid 5px;
     background-color: transparent;
@@ -62,6 +83,9 @@ body{
 }
 .littleCube°° p{
     margin: auto;
+}
+.littleCube°°2{
+    height: 100%;
 }
 .littleCubeSun{
     background-color: #F2EAE1;
@@ -85,4 +109,67 @@ body{
 .littleCubeMap{
     background-image: url(./assets/map.png);
     background-size: cover;
+}
+.littleCubeDL{
+    background-color: #F2EAE1;
+}
+.littleCubeDL h2{
+    color: #5f9300;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+}
+.littleCubeCuisto{
+    background: url(./assets/chef.jpg);
+    background-size: cover;
+}
+.littleCubePhilo{
+    background-color: #fff;
+    border: 5px solid #F2EAE1;
+}
+.littleCubePhilo h2{
+    color: #5f9300;
+    font-weight: bold;
+}
+.littleCubeTacos{
+    background-image: url(./assets/food2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 0px solid transparent;
+    border-right: white 5px solid;
+}
+
+
+
+footer{
+    border-top: 1px solid #2d2f32;
+    height: 100px;
+    width: 850px;
+    margin: 0 auto;
+}
+footer p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #2d2f32;
+}
+footer ul{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+footer ul li{
+    float: left;
+    max-width: 30px;
+    margin-left: 15px;
+}
+footer ul li i{
+    font-size: 30px;
+    color: #5f9300;
+}
+footer p mark{
+    background-color: unset;
+    color: #5f9300;
 }
