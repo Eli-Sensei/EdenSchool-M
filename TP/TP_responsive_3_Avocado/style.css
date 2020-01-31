@@ -249,7 +249,7 @@ footer p mark{
 @media (max-width: 610px) and (min-width: 0px){
     .fakeBody{
         width: 400px;
-        height: 5000px;
+        height: 3440px;
     }
     .bigCube{
         height: 400px;
@@ -293,15 +293,40 @@ footer p mark{
     }
 
 
-
+    .demiCube{
+        height: 200px;
+    }
     .bigCubePhilo{
-        height: 800px;
+        height: 1010px;
     }
     .littleCubeCuisto{
         width: 100%;
         height: 400px;
     }
-    .littleCubeCuisto{
-        
+    .littleCubePhilo{
+        width: 100%;
+        height: 400px;
+    }
+    .littleCubeDL{
+        width: 100%;
+        height: 100%;
+        padding-top: 120px;
+    }
+    .littleCube°°2{
+        width: 50%;
+        padding-top: 20px;
+    }
+    .demiCube2{
+        width: 100%;
+    }
+    footer{
+        width: 400px;
+    }
+    footer p{
+        margin-left: 70px;
+    }
+    footer ul{
+        margin-right: 115px;
+        margin-top: 0px;
     }
 }
