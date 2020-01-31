@@ -173,3 +173,135 @@ footer p mark{
     background-color: unset;
     color: #5f9300;
 }
+
+
+@media (max-width: 880px) and (min-width: 611px){
+    .fakeBody{
+        width: 600px;
+        height: calc(425px * 4 - 360px);
+    }
+    .bigCube{
+        height: 290px;
+    }
+    .littleCube{
+        display: none;
+    }
+    .littleCube°°, .littleCubeSun, .littleCubeBurger, .littleCubeMap, .littleCubeDL, .littleCubeCuisto, .littleCubeTacos, .littleCube°°2, .littleCubePhilo {
+        display: block;
+    }
+    .littleCube°°{
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+    }
+    .littleCubeMap{
+        width: 100%;
+        background-position: center center;
+    }
+    .littleCubeDL{
+        width: 100%;
+    }
+    .littleCubeDL h2{
+        margin-top: 15px;
+    }
+    .bigCubeDL{
+        float: right;
+    }
+    .bigCubePhilo{
+        height: 440px;
+        width: 100%;
+        margin-top: -290px;
+    }
+    .demiCube{
+        width: 50%;
+        height: 140px;
+        border: 5px solid white;
+        margin-bottom: 10px;
+    }
+    .demiCube h3{
+        margin-top: 20px;
+    }
+    .littleCubeCuisto{
+        width: 50.1%;
+        height: 290px;
+    }
+    .littleCubePhilo{
+        width: 49.9%;
+        height: 290px;
+    }
+
+    .demiCube2{
+        width: 100%;
+    }
+    .littleCubeTacos{
+        width: 50%;
+        height: 290px;
+    }
+    .littleCube°°2{
+        width: 50%;
+        height: 290px;
+    }
+    footer{
+        width: 600px;
+    }
+}
+
+@media (max-width: 610px) and (min-width: 0px){
+    .fakeBody{
+        width: 400px;
+        height: 5000px;
+    }
+    .bigCube{
+        height: 400px;
+        width: 100%;
+    }
+    .littleCube{
+        display: none;
+    }
+    .littleCube°°, .littleCubeSun, .littleCubeBurger, .littleCubeMap, .littleCubeDL, .littleCubeCuisto, .littleCubeTacos, .littleCube°°2, .littleCubePhilo, .littleCubeIMG {
+        display: block;
+    }
+    .littleCube°°{
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+    }
+    .bigCubeMap{
+        height: 1000px;
+    }
+    .littleCubeBurger, .littleCubeSun{
+        height: 200px;
+    }
+    .littleCubeSun{
+        width: 100%;
+        height: 400px;
+        padding-top: 100px;
+    }
+    .littleCubeMap{
+        width: 100%;
+        height: 400px;
+        background-position: center center;
+    }
+    .littleCubeIMG{
+        background-image: url(./assets/building1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    .bigCubeIMG{
+        display: none;
+    }
+
+
+
+    .bigCubePhilo{
+        height: 800px;
+    }
+    .littleCubeCuisto{
+        width: 100%;
+        height: 400px;
+    }
+    .littleCubeCuisto{
+        
+    }
+}
